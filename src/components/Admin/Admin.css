@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #181b3a;
+    --secondary-color: #01d293;
+    --body-bg: #0b0c28;
+    --card-01-bg: linear-gradient(#ef621c, #e1424e);
+    --card-02-bg: linear-gradient(#01d293, #56c57a);
+    --card-03-bg: #725cff;
+    --card-04-bg: #2884ff;
+    --heading-color: #fff;
+    --small-text-color: #808191;
+    --recommend-car01-bg: #e1dfa4;
+    --recommend-car02-bg: #e3ecf1;
+    --recommend-car03-bg: #f4e3e5;
+  
+    /* admin */
+    
+   --AdminPrimary : hsl(94, 59%, 35%);
+   --HoverColor: #bdf094;
+   --PaleGreen : hsl(96, 75%, 89%);
+   --WhiteColor: hsl(0, 0%, 100%);
+   --blackColor : hsl(0, 0%, 18%);
+   --greyText : rgb(190, 190, 190);
+   --adminInput : hsl(330, 12%, 97%);
+  
+   /* admin font typhography */
+  
+   --biggestFontSize : 2.5rem;
+   --h1FontSize : 1.5rem;
+   --h2FontSize : 1.25rem;
+   --h3FontSize : 1rem;
+   --normalFontSize: .938rem;
+   --smallFontSize : .813rem;
+   --smallestFontSize : .75rem;
+  }
+
+  html{
+    font-size: 90%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .icon-admin{
+    font-size: var(--h2FontSize);
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .flex-admin{
+    display: flex;
+    align-items: center;
+  }
+
+  .grid-admin{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .btn-admin{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--adminInput);
+    padding: .8rem 1rem;
+    color: var(--small-text-color);
+  }
+
+  .btn-admin .icon-admin{
+    margin-left: .5rem;
+  }
+
+  .btn-admin:hover{
+    background : var(--PaleGreen);
+    color: var(--primary-color);
+  }
+
+  .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .container-admin{
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(128, 128, 128, 0.178);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px var(--greyText);
+  }
+
+  /* Hide the scroll thumb */
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
